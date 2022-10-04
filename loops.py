@@ -34,11 +34,16 @@ def loop():
       print(f"{name} starts with j ")
 
 dic = {"key1": "a", "key2": "b", "key3": "c"}
-for item in dic:
+for item in dic.items():
   print(item)
+  for a,b in dic.items():
+    print(a,b)
 # For Loops Practice #2
 # Given the following list of numbers, calculate the sum of all the numbers using For loops and store the result of the sum in a variable called sum_numbers:
-
+coins = 30 
+while coins < 40:
+  print(f"i have {coins} coins")
+  coins += 1
 list_numbers = [1,5,8,7,6,8,2,5,2,6,4,8,5,9,8,3,5,4,2,5,6,4]
 # sum_numbers = 
 
