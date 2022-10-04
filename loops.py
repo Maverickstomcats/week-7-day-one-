@@ -44,6 +44,12 @@ coins = 30
 while coins < 40:
   print(f"i have {coins} coins")
   coins += 1
+
+answer = "y"
+while answer == "y":
+  answer = input("do you want to continue ")
+else:
+  print("thanks :D")
 list_numbers = [1,5,8,7,6,8,2,5,2,6,4,8,5,9,8,3,5,4,2,5,6,4]
 # sum_numbers = 
 
